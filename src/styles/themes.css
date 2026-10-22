@@ -1,0 +1,42 @@
+:root {
+  --accent-primary: #48D9F5;
+  --accent-secondary: #9BE7FF;
+  --accent-glow: rgba(72, 217, 245, 0.45);
+  --highlight: #F5FDFF;
+  --text-primary: #F7FCFF;
+  --text-muted: #C5EAF4;
+  --surface-glass: rgba(10, 30, 45, 0.55);
+  --border-subtle: rgba(72, 217, 245, 0.22);
+  --shadow-color: rgba(3, 18, 30, 0.65);
+  --overlay-color: linear-gradient(180deg, rgba(7, 24, 38, 0.35) 0%, rgba(5, 18, 28, 0.2) 50%, rgba(4, 15, 24, 0.7) 100%);
+  --hover-glow: rgba(72, 217, 245, 0.5);
+  --transition-duration: 400ms;
+}
+
+[data-theme='sunset'] {
+  --accent-primary: #FF9D42;
+  --accent-secondary: #E6B46A;
+  --accent-glow: rgba(255, 157, 66, 0.45);
+  --highlight: #FFE2AD;
+  --text-primary: #FFF4E7;
+  --text-muted: #D6B79A;
+  --surface-glass: rgba(35, 18, 10, 0.55);
+  --border-subtle: rgba(255, 157, 66, 0.22);
+  --shadow-color: rgba(24, 10, 4, 0.7);
+  --overlay-color: linear-gradient(180deg, rgba(28, 14, 7, 0.4) 0%, rgba(20, 10, 5, 0.2) 50%, rgba(18, 8, 4, 0.72) 100%);
+  --hover-glow: rgba(255, 157, 66, 0.5);
+}
+
+[data-theme='night'] {
+  --accent-primary: #8B9CFF;
+  --accent-secondary: #5968B8;
+  --accent-glow: rgba(139, 156, 255, 0.45);
+  --highlight: #DDE3FF;
+  --text-primary: #F2F4FF;
+  --text-muted: #A5ACD1;
+  --surface-glass: rgba(12, 14, 32, 0.6);
+  --border-subtle: rgba(139, 156, 255, 0.22);
+  --shadow-color: rgba(5, 6, 16, 0.75);
+  --overlay-color: linear-gradient(180deg, rgba(10, 12, 28, 0.45) 0%, rgba(8, 9, 22, 0.25) 50%, rgba(6, 7, 18, 0.75) 100%);
+  --hover-glow: rgba(139, 156, 255, 0.5);
+}

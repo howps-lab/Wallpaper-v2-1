@@ -1,0 +1,6 @@
+{
+  "name": "Cinematic Wallpaper Slider",
+  "description": "Immersive full-screen 3D nature wallpaper gallery featuring seamless looping video backgrounds, three cinematic themes, and tactile physical slider interactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
