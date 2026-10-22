@@ -24,6 +24,7 @@ An immersive, full-screen 3D nature wallpaper gallery web application built with
 - **Minimalist Top Navigation**:
   - Discreet `01 / 12` gallery index counter in the top-left corner.
   - Three unobtrusive circular theme dots (9–12px) in the top-right corner with 44px touch targets on mobile.
+  - Compact Full-Screen toggle button (`Maximize2` / `Minimize2`) right beside the theme dots with theme-glow hover effects and native Fullscreen API support.
 - **Responsive Layout**: Designed for seamless viewing across mobile (viewport-fit, 100dvh safe areas, touch-friendly swipe/scroll), tablet, and desktop viewports.
 - **Theme Persistence**: Preserves user's theme preference in `localStorage`.
 

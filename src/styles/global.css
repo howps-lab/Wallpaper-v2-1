@@ -16,6 +16,16 @@ h1, h2, h3, h4, .font-display {
   font-family: 'Outfit', sans-serif;
 }
 
+/* Stylish font matching Regal Crest reference image */
+.font-stylish-title {
+  font-family: 'Playfair Display', 'Bodoni Moda', 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-feature-settings: 'swsh' 1, 'dlig' 1, 'liga' 1;
+  letter-spacing: -0.015em;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7);
+}
+
 :focus-visible {
   outline: 2px solid var(--accent-primary);
   outline-offset: 3px;
